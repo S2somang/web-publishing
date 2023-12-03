@@ -1,0 +1,66 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic|Nanum+Myeongjo|Open+Sans');
+
+ul,li{list-style:none;}
+a{text-decoration:none; color:#333;}
+
+#wrap {
+	width:100%;
+	margin:0 auto;
+	font-family: 'Nanum Gothic','Open Sans', 'Nanum Myeongjo', sans-serif;
+
+}
+
+#backtotop{
+	width:40px;
+	background: #4b4b4b;
+	line-height: 40px;
+	text-align: center;
+	color: white;
+	font-weight: 600;
+	cursor:pointer; 
+	margin:0% 0% 0% 90%;  
+	position:fixed; 
+	bottom:10px; 
+	padding:10px; 
+	border:1px solid #4b4b4b; 
+	border-radius:50%; 
+	/*! filter:alpha(opacity=80); */ 
+	opacity:0.8; 
+	z-index:1000;
+}
+
+#header{
+	width:1024px;
+	margin:0 auto;
+	overflow: hidden;
+	height: 100px;
+	line-height: 100px;
+}
+
+#header h1{
+	
+	float: left;
+	width: 40%;
+	height: 100px;
+	line-height: 120px;
+}
+#header h1 img{width: 50%;}
+
+#header ul{overflow: hidden;float: right;width: 60%;text-align: center;}
+
+#header ul>li{float: left;width: 25%;/*! text-align: center; */}
+
+#header a:hover h2{ color:#969696;}
+
+
+
+#title{
+	max-width:100%;
+	margin:0 auto;
+	/*! background:#f9f9f9; */
+}
+
+#title ul{width: 1024px;margin: 0 auto;}
+#title li{/*! cursor: pointer; */}
+#title img{}

@@ -1,0 +1,40 @@
+<div>  
+                        	<table>
+                            	<tr>
+                                	<td>CPU모델</td>
+                                	<td>코어i3 카비레이크 7100</td>
+                                    <td>가격대별</td>
+                                  	<td>60~70만원대</td>
+                                </tr>
+                                <tr>
+                                	<td>메모리</td>
+                                	<td>8GB</td>
+                                    <td>OS</td>
+                                  	<td>OS미포함</td>
+                                </tr>
+                                <tr>
+                                	<td>케이스타입</td>
+                                	<td> 타워형 </td>
+                                    <td> 프로세서별</td>
+                                  	<td>인텔 코어 i3 </td>
+                                </tr>
+                                <tr>
+                                	<td>용도별 </td>
+                                	<td>3D / 게임용</td>
+                                    <td>그래픽카드</td>
+                                  	<td>지포스 GTX1050</td>
+                                </tr>
+                                <tr>
+                                	<td>HDD/SSD </td>
+                                	<td>SSD 240GB </td>
+                                    <td>레코더</td>
+                                  	<td>ODD미포함</td>
+                                </tr>
+                                <tr>
+                                	<td>테마별 </td>
+                                	<td>오렌지PC</td>
+                                    <td>시리즈</td>
+                                  	<td>MK2-Series</td>
+                                </tr>
+                            </table>
+                        </div>

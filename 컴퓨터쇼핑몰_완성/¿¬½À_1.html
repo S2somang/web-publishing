@@ -1,0 +1,243 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/연습.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<title>Untitled Document</title>
+<script>
+	$(function(){
+		//addClass,removeClass,toggleClass =>레이아웃이 바뀐다던지 실시간으로 스타일이 바뀌는건 90%가 이거씀!!!
+		//세로정렬버튼을 누르면(click이벤트) 
+		//네가지 div가 세로 정렬이되며 (-> 실시간으로 스타일이 변함)
+		// => class관련 메쏘드(함수)사용!
+		$(".list_button").click(function(){
+			$(".goods_con_1").removeClass("goods_con_hor").addClass("goods_con_ver");
+			//리무브클레스뒤엔 .안찍음
+		});
+		$(".gallery_button").click(function(){
+			$(".goods_con_1").removeClass("goods_con_ver").addClass("goods_con_hor");
+			//리무브클레스뒤엔 .안찍음
+		});
+
+	});
+
+</script>
+
+</head>
+
+<body>
+<div id="goods">
+        	<div id="goods_serch">
+            	
+            </div>
+
+ 			<div id="goods_content_box">
+                <div id="goods_content_box_menu">
+                	<ul>
+                    	<li class="goods_content_box_menu_frist_li"><a href="#">스페셜</a></li>
+                        <li><a href="#">판매인기순</a></li>
+                        <li><a href="#">낮은가격순</a></li>
+                        <li><a href="#">높은가격순</a></li>
+                        <li><a href="#">신규상품순</a></li>
+                        <li><a href="#">제조사순</a></li>
+                        <li><a href="#"><img src="image/body_tab_2hour_off.png" style="width:auto;"/></a></li>
+                        <li>
+                        	<form>
+                            	<p>판매중<input type="checkbox" value="판매중"/></p>
+                            </form>
+                        </li>
+                        <li class="select">
+                            <div class="list_select">
+                                <select name="list" style="padding-right:20px">
+                                   <option selected="selected">10개씩보기</option>
+                                   <option >20개씩보기</option>
+                                   <option >30개씩보기</option>
+                                   <option >40개씩보기</option>
+                                </select>
+                            </div>
+                        </li>
+                        <li>
+                        	<img src="image/body_tab_view_list_on.gif" class="list_button" />
+                        	<img src="image/body_tab_view_gallery_off.gif" class="gallery_button"/>
+                        </li>
+                            
+                    </ul>
+                </div>
+                <div id="goods_content">
+                     <div class="goods_con_1 goods_con_ver">
+                     	<ul>
+                            <li class="goods_con1_1 "><a href="#"><img src="image/goods_content_img1.jpg"/></a></li>
+                            <li class="goods_con1_2">
+                            	<a href="goods_detail.html">[351729] ICODA 오렌지 PC MK2-Series i3 7100/8GB/GTX1050/SSD240GB/TH3</a>
+                            	<div class="goods_con_1_2a display_none">
+                                	코어i3 카비레이크 7100 / 60~70만원대 / 8GB / OS 미포함 / 타워형 / 인텔 코어 i3 / 3D / 게임용 /
+                                    지포스 GTX1050 / SSD 240GB / ODD미포함 / 오렌지PC / MK2-Series 
+                                </div>
+                                <div class="goods_con_1_2_img">
+                            		<img src="image/icon_free_deliver.gif"/>
+                                </div>
+                                <div class="goods_con_1_2_img display_none">
+                                	<img src="image/notice_icon_3.gif"/>
+                                	오렌지PC는 조립비가 무료입니다.
+                                </div>
+                                <div class="goods_con_1_2_img goods_con_1_2_img_p display_none">
+                                	<img src="image/level_star_0.gif" class="goods_con_1_2_img_p"/> 
+                                    <p>상품평 <span><!--나중에 숫자넣어야해--></span>건</p>
+                                    <p>등록일 2017.11.20</p>
+                                </div>
+                            </li>
+                            <li class="goods_con1_3">
+                            	<div> 일반판매가:<span>645,000원</span></div>
+                            </li>
+                            <li class="goods_con1_4">
+                            <a href="#">
+                            	<div><img src="image/go_cart_btn.gif"/></div>
+                                <div><img src="image/go_interest_btn.gif"/></div>
+                                <div><img src="image/go_pay_btn.gif"/></div>
+                            </a>
+                            </li>
+                        </ul>
+                     </div>  
+                     <div class="goods_con_1 goods_con_ver">
+                     	<ul>
+                            <li class="goods_con1_1 "><a href="#"><img src="image/goods_content_img1.jpg"/></a></li>
+                            <li class="goods_con1_2">
+                            	<a href="goods_detail.html">[351729] ICODA 오렌지 PC MK2-Series i3 7100/8GB/GTX1050/SSD240GB/TH3</a>
+                            	<div class="goods_con_1_2a display_none">
+                                	코어i3 카비레이크 7100 / 60~70만원대 / 8GB / OS 미포함 / 타워형 / 인텔 코어 i3 / 3D / 게임용 /
+                                    지포스 GTX1050 / SSD 240GB / ODD미포함 / 오렌지PC / MK2-Series 
+                                </div>
+                                <div class="goods_con_1_2_img ">
+                            		<img src="image/icon_free_deliver.gif"/>
+                                </div>
+                                <div class="goods_con_1_2_img display_none">
+                                	<img src="image/notice_icon_3.gif"/>
+                                	오렌지PC는 조립비가 무료입니다.
+                                </div>
+                                <div class="goods_con_1_2_img goods_con_1_2_img_p display_none">
+                                	<img src="image/level_star_0.gif" class="goods_con_1_2_img_p"/> 
+                                    <p>상품평 <span><!--나중에 숫자넣어야해--></span>건</p>
+                                    <p>등록일 2017.11.20</p>
+                                </div>
+                            </li>
+                            <li class="goods_con1_3">
+                            	<div> 일반판매가:<span>645,000원</span></div>
+                            </li>
+                            <li class="goods_con1_4">
+                            <a href="#">
+                            	<div><img src="image/go_cart_btn.gif"/></div>
+                                <div><img src="image/go_interest_btn.gif"/></div>
+                                <div><img src="image/go_pay_btn.gif"/></div>
+                            </a>
+                            </li>
+                        </ul>
+                     </div>
+                     <div class="goods_con_1 goods_con_ver">
+                     	<ul>
+                            <li class="goods_con1_1 "><a href="#"><img src="image/goods_content_img1.jpg"/></a></li>
+                            <li class="goods_con1_2">
+                            	<a href="goods_detail.html">[351729] ICODA 오렌지 PC MK2-Series i3 7100/8GB/GTX1050/SSD240GB/TH3</a>
+                            	<div class="goods_con_1_2a display_none">
+                                	코어i3 카비레이크 7100 / 60~70만원대 / 8GB / OS 미포함 / 타워형 / 인텔 코어 i3 / 3D / 게임용 /
+                                    지포스 GTX1050 / SSD 240GB / ODD미포함 / 오렌지PC / MK2-Series 
+                                </div>
+                                <div class="goods_con_1_2_img">
+                            		<img src="image/icon_free_deliver.gif"/>
+                                </div>
+                                <div class="goods_con_1_2_img display_none">
+                                	<img src="image/notice_icon_3.gif"/>
+                                	오렌지PC는 조립비가 무료입니다.
+                                </div>
+                                <div class="goods_con_1_2_img goods_con_1_2_img_p display_none">
+                                	<img src="image/level_star_0.gif" class="goods_con_1_2_img_p"/> 
+                                    <p>상품평 <span><!--나중에 숫자넣어야해--></span>건</p>
+                                    <p>등록일 2017.11.20</p>
+                                </div>
+                            </li>
+                            <li class="goods_con1_3">
+                            	<div> 일반판매가:<span>645,000원</span></div>
+                            </li>
+                            <li class="goods_con1_4">
+                            <a href="#">
+                            	<div><img src="image/go_cart_btn.gif"/></div>
+                                <div><img src="image/go_interest_btn.gif"/></div>
+                                <div><img src="image/go_pay_btn.gif"/></div>
+                            </a>
+                            </li>
+                        </ul>
+                     </div>
+                     <div class="goods_con_1 goods_con_ver">
+                     	<ul>
+                            <li class="goods_con1_1 "><a href="#"><img src="image/goods_content_img1.jpg"/></a></li>
+                            <li class="goods_con1_2">
+                            	<a href="goods_detail.html">[351729] ICODA 오렌지 PC MK2-Series i3 7100/8GB/GTX1050/SSD240GB/TH3</a>
+                            	<div class="goods_con_1_2a display_none">
+                                	코어i3 카비레이크 7100 / 60~70만원대 / 8GB / OS 미포함 / 타워형 / 인텔 코어 i3 / 3D / 게임용 /
+                                    지포스 GTX1050 / SSD 240GB / ODD미포함 / 오렌지PC / MK2-Series 
+                                </div>
+                                <div class="goods_con_1_2_img">
+                            		<img src="image/icon_free_deliver.gif"/>
+                                </div>
+                                <div class="goods_con_1_2_img display_none">
+                                	<img src="image/notice_icon_3.gif"/>
+                                	오렌지PC는 조립비가 무료입니다.
+                                </div>
+                                <div class="goods_con_1_2_img goods_con_1_2_img_p  display_none">
+                                	<img src="image/level_star_0.gif" class="goods_con_1_2_img_p"/> 
+                                    <p>상품평 <span><!--나중에 숫자넣어야해--></span>건</p>
+                                    <p>등록일 2017.11.20</p>
+                                </div>
+                            </li>
+                            <li class="goods_con1_3">
+                            	<div> 일반판매가:<span>645,000원</span></div>
+                            </li>
+                            <li class="goods_con1_4">
+                            <a href="#">
+                            	<div><img src="image/go_cart_btn.gif"/></div>
+                                <div><img src="image/go_interest_btn.gif"/></div>
+                                <div><img src="image/go_pay_btn.gif"/></div>
+                            </a>
+                            </li>
+                        </ul>
+                     </div>
+                     <div class="goods_con_1 goods_con_ver">
+                     	<ul>
+                            <li class="goods_con1_1 "><a href="#"><img src="image/goods_content_img1.jpg"/></a></li>
+                            <li class="goods_con1_2">
+                            	<a href="goods_detail.html">[351729] ICODA 오렌지 PC MK2-Series i3 7100/8GB/GTX1050/SSD240GB/TH3</a>
+                            	<div class="goods_con_1_2a display_none">
+                                	코어i3 카비레이크 7100 / 60~70만원대 / 8GB / OS 미포함 / 타워형 / 인텔 코어 i3 / 3D / 게임용 /
+                                    지포스 GTX1050 / SSD 240GB / ODD미포함 / 오렌지PC / MK2-Series 
+                                </div>
+                                <div class="goods_con_1_2_img">
+                            		<img src="image/icon_free_deliver.gif"/>
+                                </div>
+                                <div class="goods_con_1_2_img display_none">
+                                	<img src="image/notice_icon_3.gif"/>
+                                	오렌지PC는 조립비가 무료입니다.
+                                </div>
+                                <div class="goods_con_1_2_img goods_con_1_2_img_p display_none">
+                                	<img src="image/level_star_0.gif" class="goods_con_1_2_img_p"/> 
+                                    <p>상품평 <span><!--나중에 숫자넣어야해--></span>건</p>
+                                    <p>등록일 2017.11.20</p>
+                                </div>
+                            </li>
+                            <li class="goods_con1_3">
+                            	<div> 일반판매가:<span>645,000원</span></div>
+                            </li>
+                            <li class="goods_con1_4">
+                            <a href="#">
+                            	<div><img src="image/go_cart_btn.gif"/></div>
+                                <div><img src="image/go_interest_btn.gif"/></div>
+                                <div><img src="image/go_pay_btn.gif"/></div>
+                            </a>
+                            </li>
+                        </ul>
+                     </div>
+                </div>
+
+</div>
+
+</body>
+</html>

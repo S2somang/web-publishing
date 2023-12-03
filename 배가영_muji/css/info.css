@@ -1,0 +1,157 @@
+
+.top_category{
+		font-size:0.9em;
+		overflow: hidden;
+		line-height: 2.3em;
+}
+.top_category li{
+
+	float: left;
+}
+.glyphicon-menu-right::before{
+	
+	color: #3339;
+	padding: 0 1em;
+	content: ">";
+}
+.info_con{
+	margin-top: 4em;
+	overflow: hidden;
+}
+#demos{
+	width: 50%;
+	background: #f6e8e8;
+	
+	float: left;
+}
+.owl-carousel{ 
+
+}
+.item{
+	width:100%;
+}
+
+.info_con2{
+	
+	float: right;
+	width: 50%;
+	/*! background: #fff7f7; */
+	/*! overflow: hidden; */
+}
+.info_con2_1{ width: 80%;padding: 1.8em 0 0 1.5em;/*! background: #fefafa99; */float: right;box-shadow: 0px 4px 3px 0px rgba(69, 69, 69, 0.25);margin-right: 2px;}
+.info_con2_1 dl{ 
+
+}
+.info_con2_1 dt{ font-size: 1.4em;font-weight: 600;line-height: 1.5em;border-bottom: 1px solid #bcbcbc;padding-bottom: 0.5em;}
+.info_con2_1 dt>span{ }
+.info_con2_1 dt>img{
+	 
+	width: 18%;
+}
+.product_con{ 
+
+}
+.product_con ul{
+	
+}
+.product_con li{ overflow: hidden;margin: 1em 0;}
+.product_con dt{ font-size: 0.8em;font-weight: 200;width: 35%;float: left;border: none;}
+.product_con dd{ font-size: 0.8em;float: left;width: 65%;/*! background: #f6e5e5; */line-height: 1.4em;}
+.border_top{  border-top: 1px solid #bcbcbc; }
+.product_con p{ text-align: right;margin-right: 2em;padding-top: 0.8em;line-height: 2em;}
+.product_con span{
+	
+	font-weight: 600;
+	font-size: 1.8em;
+	padding-right: 0.2em;
+}
+.hope{font-weight: 600;}
+#deliveryHope{width: 64%;padding-left: 12px;height: 20px;background: #fff;border-radius: 0;cursor: pointer;border: 1.2px solid #8a8888;}
+.product_con2 {/*! background: #d5c8c8; */width: 80%;float: right;margin-top: 1.8em;box-shadow: 0px 4px 3px 0px rgba(69, 69, 69, 0.25);margin-right: 2px;padding: 1em 0px 0px 1.5em;height: 80px;} 
+.product_con2 dl{font-size: 0.8em;/*! overflow: hidden; */} 
+.product_con2 dt{float: left;width: 30%;}
+.product_con2 dd{float: left; width: 15%;}
+#productSelect{ }
+  
+.wish{ 
+
+	float: right;
+	width: 45%;
+}
+.wish a{ display: block;}
+.wish img{ }
+
+.info_con2_sns { 
+
+	clear: both;
+	width: 86%;
+	float: right;
+	padding-right: 2px;
+	margin-top: 1.5em;
+	overflow: hidden;
+	text-align: right;
+}
+.info_con2_sns a{ 
+
+}
+.info_con2_sns img { 
+
+	width: 9%;
+}
+
+.products_cu_list2 { margin-top: 2em;overflow: hidden;}
+#cu2_slider{ margin-top: 2em;}
+#cu2_slider li{ width: 22.5%;float: left;text-align: center;padding: 10px;font-size: 0.8em;line-height: 1.3em; }
+#cu2_slider li:hover{ background: #e7e7e7;}
+#cu2_slider li p{ color: #545454;margin-bottom: 0.8em;}
+#cu2_slider li span{color:#808080; }
+
+
+
+.products_detail{ padding-top: 1em;}
+.product_detail_img { margin: 3em 0;font-size: 0.8em;color: #747474;}
+.product_detail_img img { width:100%; margin: 1em 0 auto;}
+.product_detail_img li{ margin-top: 1em;}
+
+
+.products_detail_list{ padding-top: 3em;line-height: 2em;}
+.products_detail_list ul { overflow: hidden;font-size: 0.8em;text-align: center;width: 100%;/*! background: #ffe4e4; */border-bottom: 1px solid #d1d1d1;padding-bottom: 0.3em;}
+.products_detail_list li{ float: left;width: 15%;text-align: center;position: relative;left: 18%;}
+.products_detail_list a{ }
+
+
+.p_d_list{ text-align: center;font-size: 0.8em;}
+.p_d_list .p_d_list_row1 { color: #333;border-bottom: 2px solid #d1d1d1;line-height: 2.5em;/*! position: relative; */}
+.p_d_list table{ width: 100%;margin-top: 1.5em;}
+.p_d_list tr{ /*! font-size: 0.8em; */font-weight: normal;color: #5f5f5f;line-height: 2.3em;border-bottom: 1px solid #d1d1d1;}
+.p_d_list>p{ margin-top: 1em;color: #838383;font-size: 0.9em;}
+.d_show{ /*! z-index: 100; */position: relative;}
+.d_show:hover .d_hide { display:block;}
+.p_d_list .d_hide { font-size: 0.9em;line-height: 1.5em;color: #a19e9e;padding-top: 2.8em;position: absolute;top: 0px;left: 21px;/*! background: #fff; */width: 75px;height: 94px;border: 1px solid #d1d1d1;display: none;}
+.d_hide li{ background: #fff;}
+
+.active{ color:#0f0f0f; font-weight: 600;}
+
+.paging{  display: inline-block; padding: 1em 0;}
+.paging a { float: left; padding: 9px 12px; text-decoration: none; color: #717171;}
+.paging  a:hover{background:#d4d4d4; color:#fff;   }
+
+.p_list_padding{ margin-bottom: 3em;height: 146px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

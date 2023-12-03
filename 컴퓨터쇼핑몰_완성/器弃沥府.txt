@@ -1,0 +1,50 @@
+* 홈페이지 
+
+주소(URL) => www.icoda.co.kr
+index페이지(HOME)   -> 1 depth(깊이)
+=> 메뉴(네비게이션 메뉴)
+   	ex) 과자, 유제품, 음료수 ...  /큰분류	
+1 depth -> 메뉴선택(과자) -> 2 depth 
+   	ex) 과자종류  -> 새우깡, 꿀꽈베기... 
+2 depth  -> 과자리스트선택(새우깡)
+  	 ex)새우깡에 대한 자세한 설명 페이지
+
+* 모든 HTMl태그(요소)는 CSS입장(그림을 그리는 입장)에서는 BOX일 뿐이다
+
+* box => 마진(margin) +보더(border) + 패딩(padding) +컨텐츠 (content)
+
+* 모든 HTML 태그(요소) =>2가지로 나뉜다.
+   왜 두가지로 나뉘는가?(CSS 스타일[그려준다])
+  -> CSS에서 화면에 스타일을 나타낼때(그림을 그려줄때)
+      그 요소의 기본 정렬과 box의 모양을 지정하기 위해서...
+
+** CSS에서 요소 => BOX => block,inline
+	
+* box의 정렬
+   block box  => 세로정렬 
+   inline box => 가로 정렬 
+
+* box의 모양
+   block box => 부모box의 넓이 만큼 차지
+   	        width, height 사용가능
+	        자신안에 블록박스나 인라인박스 모두 담을 수 있음 
+
+   inline box => 자신안에 있는 내용(box)만큼 차지
+	         width, height 사용 불가	         
+	         위(top),아래(bottom) 마진사용불가
+	         자신안에는 inline박스만 담을 수 있음(글자는 inline취금..합니다..)
+
+* block박스를 가로정렬 => float나  inline-block 사용
+
+
+
+
+
+
+
+
+
+
+
+
+

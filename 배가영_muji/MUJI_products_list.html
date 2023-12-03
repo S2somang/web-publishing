@@ -1,0 +1,479 @@
+﻿
+<!-- MUJI 상품목록페이지 -->
+
+<!doctype html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="js/owl.carousel.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/reset.css" />
+	<link rel="stylesheet" type="text/css" href="css/top.css" />
+	<link rel="stylesheet" type="text/css" href="css/contents.css" />
+	<link rel="stylesheet" type="text/css" href="css/onlineStore.css" />
+	<link rel="stylesheet" type="text/css" href="css/products.css" />
+	<link rel="stylesheet" type="text/css" href="css/info.css" />
+	<link rel="stylesheet" type="text/css" href="css/footer.css" />
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css"> 
+	<script type="text/javascript">
+	$(function(){
+		$("#backtotop").hide();
+		$(window).scroll(function(){
+			//console.log($(this).scrollTop()); //스크롤의 위치를 콘솔화면에 보여주기
+			if($(this).scrollTop()>=50){
+				$("#backtotop").show();
+			}
+			else{
+				$("#backtotop").hide();
+			}
+		});		
+		
+		$("#backtotop").click(function(){
+			$("body,html").animate(
+				{ scrollTop:0 },800);
+		});	
+		
+	});
+		
+	</script>
+	
+	<title>MUJI</title>
+</head>
+<body>
+	<div id="wrap">
+		
+		<!----- to Top 버튼 ------>
+		<div id="backtotop">
+			<p>TOP</p>
+		</div>
+		<!----- //to Top 버튼 ------>
+		
+		<!-- header -->
+		<div id="header">
+			<h1><a href="muji_index.html"><img src="image/logo_muji_b.png" alt="main_logo"/></a></h1>
+				<ul>
+					<li><a href="MUJI_onlineStore.html"><h2>Online Store</h2></a></li>
+					<li><a href="#"><h2>Customer Center</h2></a></li>
+					<li><a href="#"><h2>About MUJI</h2></a></li>
+					<li><a href="#"><h2>News</h2></a></li>
+				</ul>
+		</div>
+		<!-- //header -->
+		
+		<!--onlieStore_content-->
+		<div id="os_content">
+			<div class="os_con_line1">
+				<div class="line1_search">
+				<input type="text" name="search" id="search"/>
+				<button class="search_b"><img src="image/search.png" art="검색"/></button>
+				</div>
+				<h3>PRODUCTS</h3>
+				<ul class="products_menu">
+					<li>
+						<a href="#">Apparel</a>
+						<ul class="p_menu_conceal p_menu_active">
+							<li class="p_menu_active_li"><a href="MUJI_products_list.html">Women</a></li>
+							<li><a href="#">Men</a></li>
+							<li><a href="#">Children</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">Accessory</a>
+						<ul class="p_menu_conceal">
+							<li><a href="#">양말</a></li>
+							<li><a href="#">스타킹 · 레깅스</a></li>
+							<li><a href="#">모자</a></li>
+							<li><a href="#">스카프 · 머플러</a></li>
+							<li><a href="#">우산 · 레인코트</a></li>
+							<li><a href="#">소품</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">Cosmetics</a>
+						<ul class="p_menu_conceal">
+							<li><a href="#">스킨케어</a></li>
+							<li><a href="#">바디오일 · 입욕제</a></li>
+							<li><a href="#">메이크업 · 색조</a></li>
+							<li><a href="#">관련 용품</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">Bag</a>
+						<ul class="p_menu_conceal">
+							<li><a href="#">여성가방</a></li>
+							<li><a href="#">남성가방</a></li>
+							<li><a href="#">여행가방</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">Shoes</a>
+						<ul class="p_menu_conceal">
+							<li><a href="#">남성화</a></li>
+							<li><a href="#">여성화</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">Fabric</a>
+						<ul class="p_menu_conceal">
+							<li><a href="#">이불 · 깔개</a></li>
+							<li><a href="#">베개</a></li>
+							<li><a href="#">모포 · 덮개</a></li>
+							<li><a href="#">침장 패브릭</a></li>
+							<li><a href="#">쿠션</a></li>
+							<li><a href="#">리빙 패브릭</a></li>
+							<li><a href="#">욕실 패브릭</a></li>
+							<li><a href="#">타월</a></li>
+							<li><a href="#">슬리퍼</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">Furniture</a>
+						<ul class="p_menu_conceal">
+							<li><a href="#">침대 · 매트리스</a></li>
+							<li><a href="#">소파 · 리빙가구</a></li>
+							<li><a href="#">와이드암 소파</a></li>
+							<li><a href="#">슬림암 소파</a></li>
+							<li><a href="#">다이닝 가구</a></li>
+							<li><a href="#">데스크</a></li>
+							<li><a href="#">수납가구 · 화장대</a></li>
+							<li><a href="#">유닛 · 수납선반</a></li>
+							<li><a href="#">수납 캐비닛</a></li>
+							<li><a href="#">데코 · 벽걸이 가구</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">Kitchen</a>
+						<ul class="p_menu_conceal">
+							<li><a href="#">하우스키핑</li>
+							<li><a href="#">정리용품</a></li>
+							<li><a href="#">욕실 화장실용품</a></li>
+							<li><a href="#">부엌용품</a></li>
+							<li><a href="#">테이블용품</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">Health · Aroma</a>
+						<ul class="p_menu_conceal">
+							<li><a href="#">Women</a></li>
+							<li><a href="#">Men</a></li>
+							<li><a href="#">Children</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">Electonics</a>
+						<ul class="p_menu_conceal">
+							<li><a href="#">Women</a></li>
+							<li><a href="#">Men</a></li>
+							<li><a href="#">Children</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<div class="os_con_line2">
+				<ul class="line2_title">
+					<li>
+						<img src="image/cabinet2.jpg" art=""/>
+						<a href="#">
+							<div class="line2_title_p">
+								<p>수납</p>
+								<p>캐비넷</p>
+								<p class="border-box">더보기</p>
+							</div>
+						</a>
+					</li>
+				</ul>
+				
+				<div class="products_list">
+					<ul>
+						<li>
+							<dl class="products_list_con">
+								<dt><a href="#">침대 · 매트리스</a></dt>
+								<dd>
+									<a href="#">
+										<img src="image/p_list_con_1.jpg" alt=" 침대 · 매트리스 "/>
+									</a>
+								</dd>
+							</dl>
+						</li>
+						<li>
+							<dl class="products_list_con">
+								<dt><a href="#">소파 · 리빙가구</a></dt>
+								<dd>
+									<a href="#">
+										<img src="image/p_list_con_2.jpg" alt=" 소파 · 리빙가구 "/>
+									</a>
+								</dd>
+							</dl>
+						</li>
+						<li>
+							<dl class="products_list_con">
+								<dt><a href="#">화이트암 소파</a></dt>
+								<dd>
+									<a href="#">
+										<img src="image/p_list_con_3.jpg" alt=" 화이트암 소파 "/>
+									</a>
+								</dd>
+							</dl>
+						</li>
+						<li>
+							<dl class="products_list_con">
+								<dt><a href="#">슬림암 소파</a></dt>
+								<dd>
+									<a href="#">
+										<img src="image/p_list_con_4.jpg" alt=" 슬림암 소파 "/>
+									</a>
+								</dd>
+							</dl>
+						</li>
+						<li>
+							<dl class="products_list_con">
+								<dt><a href="#">다이닝 가구</a></dt>
+								<dd>
+									<a href="#">
+										<img src="image/p_list_con_5.jpg" alt=" 다이닝 가구 "/>
+									</a>
+								</dd>
+							</dl>
+						</li>
+						<li>
+							<dl class="products_list_con">
+								<dt><a href="#">데스크</a></dt>
+								<dd>
+									<a href="#">
+										<img src="image/p_list_con_6.jpg" alt=" 데스크 "/>
+									</a>
+								</dd>
+							</dl>
+						</li>
+						<li>
+							<dl class="products_list_con">
+								<dt><a href="#">수납가구· 화장대</a></dt>
+								<dd>
+									<a href="#">
+										<img src="image/p_list_con_7.jpg" alt=" 수납가구· 화장대 "/>
+									</a>
+								</dd>
+							</dl>
+						</li>
+						<li>
+							<dl class="products_list_con">
+								<dt><a href="#">유닛 · 수납선반</a></dt>
+								<dd>
+									<a href="#">
+										<img src="image/p_list_con_8.jpg" alt=" 유닛 · 수납선반 "/>
+									</a>
+								</dd>
+							</dl>
+						</li>
+						<li>
+							<dl class="products_list_con">
+								<dt><a href="#">수납 캐비닛</a></dt>
+								<dd>
+									<a href="#">
+										<img src="image/p_list_con_9.jpg" alt=" 수납 캐비닛 "/>
+									</a>
+								</dd>
+							</dl>
+						</li>
+						<li>
+							<dl class="products_list_con">
+								<dt><a href="#">데코 · 벽걸이</a></dt>
+								<dd>
+									<a href="#">
+										<img src="image/p_list_con_10.jpg" alt=" 데코 · 벽걸이 "/>
+									</a>
+								</dd>
+							</dl>
+						</li>
+						
+					</ul>
+				</div>
+				<div class="products_cu_list">
+					<h3>추천상품</h3>
+					<ul>
+						<li>
+							<a href="MUJI_product_info.html">
+								<img src="image/furniture/f_cu_1.png" art=""/>
+								<p>
+									화장대
+									<br/>
+									<span>(스톨포함 · 떡갈나무)</span>								
+								</p>
+								<span>99,000</span>
+							</a>
+						</li>
+						<li>
+							<a href="MUJI_product_info.html">
+								<img src="image/furniture/f_cu_2.png" art=""/>
+								<p>
+									체스트
+									<br/>
+									<span>(4단· 떡갈나무)</span>								
+								</p>
+								<span>239,000</span>
+							</a>
+						</li>
+						<li>
+							<a href="MUJI_product_info.html">
+								<img src="image/furniture/f_cu_3.png" art=""/>
+								<p>
+									캐비닛
+									<br/>
+									<span>(목제도어 · 떡갈나무)</span>								
+								</p>
+								<span>299,000</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="image/furniture/f_cu_4.png" art=""/>
+								<p>
+									캐비닛
+									<br/>
+									<span>(목제도어 · 미닫이)</span>								
+								</p>
+								<span>339,000</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="image/furniture/f_cu_5.png" art=""/>
+								<p>
+									캐비닛
+									<br/>
+									<span>(목제도어 · 미닫이)</span>								
+								</p>
+								<span>339,000</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="image/furniture/f_cu_6.png" art=""/>
+								<p>
+									캐비닛
+									<br/>
+									<span>(목제도어 · 미닫이)</span>								
+								</p>
+								<span>339,000</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="image/furniture/f_cu_7.png" art=""/>
+								<p>
+									캐비닛
+									<br/>
+									<span>(목제도어 · 미닫이)</span>								
+								</p>
+								<span>339,000</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="image/furniture/f_cu_8.png" art=""/>
+								<p>
+									캐비닛
+									<br/>
+									<span>(목제도어 · 미닫이)</span>								
+								</p>
+								<span>339,000</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="image/furniture/f_cu_9.png" art=""/>
+								<p>
+									캐비닛
+									<br/>
+									<span>(목제도어 · 미닫이)</span>								
+								</p>
+								<span>339,000</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="image/furniture/f_cu_10.png" art=""/>
+								<p>
+									캐비닛
+									<br/>
+									<span>(목제도어 · 미닫이)</span>								
+								</p>
+								<span>339,000</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="image/furniture/f_cu_11.png" art=""/>
+								<p>
+									캐비닛
+									<br/>
+									<span>(목제도어 · 미닫이)</span>								
+								</p>
+								<span>339,000</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="image/furniture/f_cu_12.png" art=""/>
+								<p>
+									캐비닛
+									<br/>
+									<span>(목제도어 · 미닫이)</span>								
+								</p>
+								<span>339,000</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+				
+			</div><!--//os_con_line2 -->
+			
+		</div>
+		<!--//onlieStore_content-->	
+		
+					
+<!--footer-->
+		<div id="footer">
+			<div class="inner">
+				<ul class="footer_menu">
+					<li><a href="#">Mail Magazine</a></li>
+					<li><a href="#">Online Store</a></li>
+					<li><a href="#">About MUJI</a></li>
+					<li><a href="#">Customer Center</a></li>
+					<li><a href="#">Message form MUJI</a></li>
+				</ul>
+				<!--sns -->
+				<ul class="footer_sns">
+					<li><a href="#"><img src="image/misc_instagram_w.png"/></a></li>
+					<li><a href="#"><img src="image/misc_facebook_w.png"/></a></li>
+					<li><a href="#"><img src="image/misc_twitter_w.png"/></a></li>
+					<li><a href="#"><img src="image/misc_youtube_w.png"/></a></li>
+				</ul>
+				
+				<!--국가 -->
+				<div class="footer_country">
+					<img src="image/korea.png"/>
+					<p>한국</p>
+				</div>
+				<!-- 로고 정보 -->
+				<div class="footer_logo">
+					<h1><img src="image/logo_muji_w.png"/></h1>
+					<ul>
+						<li>© Ryohin Keikaku Co., Ltd.</li>
+						<li>공정거래위원회 사업자정보확인</li>
+					</ul>
+				</div>
+				
+			</div>
+		</div>
+		</div>
+		<!-- //footer-->
+	</div> 
+	<!-- //wrap -->		
+</body>
+</html>	
+			
+			
+			
+			

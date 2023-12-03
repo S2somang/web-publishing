@@ -1,0 +1,63 @@
+
+* 홈페이지 제작시 
+***HTML에서 모든 요소(태그)  -> BOX다!!!
+<content[widht,height],padding,border,margin
+content => 내용(속한요소들..)
+
+	1. 내용물(text, imege,또 다른 박스,메뉴...)을 담을 BOX부터 위치시킨다.
+	2. 박스 => 정렬방법  (가로정렬 [inline],세로정렬[block])
+	    인라인(가로정렬) -> 블록(세로정렬), 블록(세로정렬) -> 인라인(가로정렬) 
+	    *요소의 포함관계에 따라서 상위요소(부모,조상) <-> 하위요소(자식,자손)
+
+	    *세로 정렬=>가로정렬
+	      상위요소<overflow:hidden> 하위요소 <float:left,right >
+	    => float  : left , right
+	    => float를 한 요소는 공중으로 붕- 뜬다.(z-index:최대치)
+
+	    => display : inline , inline-block,  block
+	    inline =>가로정렬가능
+	    block => 높이(height),넓이(widht)
+
+	    정렬 => 요소배치 (좌표)
+	   position : staic (기본 flow)
+		 relative => absolute
+	  	 (absolute 자식요소의 부모요소 열할)
+	 	 absolute(z-index)
+		 fixed(화면에서 고정된 베너, 메뉴)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

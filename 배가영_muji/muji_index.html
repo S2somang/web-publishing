@@ -1,0 +1,265 @@
+﻿<!doctype html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="js/owl.carousel.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/reset.css" />
+	<link rel="stylesheet" type="text/css" href="css/top.css" />
+	<link rel="stylesheet" type="text/css" href="css/contents.css" />
+	<link rel="stylesheet" type="text/css" href="css/onlineStore.css" />
+	<link rel="stylesheet" type="text/css" href="css/products.css" />
+	<link rel="stylesheet" type="text/css" href="css/info.css" />
+	<link rel="stylesheet" type="text/css" href="css/footer.css" />
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css"> 
+	<script type="text/javascript">
+	$(function(){
+		$("#backtotop").hide();
+		$(window).scroll(function(){
+			//console.log($(this).scrollTop()); //스크롤의 위치를 콘솔화면에 보여주기
+			if($(this).scrollTop()>=50){
+				$("#backtotop").show();
+			}
+			else{
+				$("#backtotop").hide();
+			}
+		});		
+		
+		$("#backtotop").click(function(){
+			$("body,html").animate(
+				{ scrollTop:0 },800);
+		});	
+		
+	});
+		
+	</script>
+	
+	<title>MUJI</title>
+</head>
+<body>
+	<div id="wrap">
+		
+		<!----- to Top 버튼 ------>
+		<div id="backtotop">
+			<p>TOP</p>
+		</div>
+		<!----- //to Top 버튼 ------>
+		
+		<!-- header -->
+		<div id="header">
+			<h1><a href="muji_index.html"><img src="image/logo_muji_b.png" alt="main_logo"/></a></h1>
+				<ul>
+					<li><a href="MUJI_onlineStore.html"><h2>Online Store</h2></a></li>
+					<li><a href="#"><h2>Customer Center</h2></a></li>
+					<li><a href="#"><h2>About MUJI</h2></a></li>
+					<li><a href="#"><h2>News</h2></a></li>
+				</ul>
+		</div>
+		<!-- //header -->
+	
+		<!-- tittle -->
+		<div id="title"><!-- 추후 슬라이더 -->
+			<ul>
+				<li><a href="#"><img src="image/index_title_1.jpg" alt="title_image"/></a></li>	
+			</ul>
+		</div>
+		<!-- // title -->
+		
+		<!-- contents-->
+		<div id="contents">
+		
+			<div class="con_sale_off">
+				<div class="sale_off_1 sale_off_title">
+					<h3>
+						<img src="image/logo_muji_s.png" alt="logoS"/><br>
+						SALE OFF
+					</h3>
+					
+				</div>
+				
+				<div class="sale_off_1 sale_off_listbox">
+					<div class="sale_off_list">
+						<a href="#">
+							<img src="image/diffuser.png" alt=""/>
+							<p>아로마 디퓨저</p>
+							<p>90,000</p>
+						</a>
+					</div>
+					<div class="sale_off_list">
+						<a href="#">
+							<img src="image/cd_player.png" alt=""/>
+							<p>아로마 디퓨저</p>
+							<p>90,000</p>
+						</a>
+					</div>
+					<div class="sale_off_list">
+						<a href="#">
+							<img src="image/lamp.png" alt=""/>
+							<p>아로마 디퓨저</p>
+							<p>90,000</p>
+						</a>
+					</div>
+				</div>
+				
+			</div><!--//sale_off -->
+			
+			<!--promotion -->
+			<div class="con_promotion">
+				<div class="con_promotion_1">
+					<a href="#">
+						<img src="image/cabinet.jpg" alt=""/>
+						<div class="con_p_p1">
+							<p>수납</p>
+							<p>캐비넷</p>
+							<p class="border-box">더보기</p>
+						</div>
+					</a>
+				</div>
+				
+				<div class="con_promotion_2">
+					<a href="#">
+						<img src="image/diffuser1.jpg" alt=""/>				
+					</a>
+					<div class="con_p_p2">
+						<p class="con_p_p2_s">아로마 디퓨저<span></span></p>
+						<p>
+							방 한가득, 향기로운 에센셜 오일을 풍부한 미스트와 함께 권해주는 초음파 아로마 디퓨저
+						</p>
+					</div>
+				</div>
+				
+				<div class="con_promotion_3">
+					<div class="con_p_p2">
+						<p class="con_p_p2_s">몸에 꼭 맞는 빈백<span></span></p>
+						<p>
+							방 한가득, 향기로운 에센셜 오일을 풍부한 미스트와 함께 권해주는 초음파 아로마 디퓨저
+						</p>
+					</div>
+					<a href="#">
+						<img src="image/beanbag.jpg" alt=""/>
+					</a>
+				</div>
+			</div>
+			
+			<!--상품메뉴부분-->
+			<div class="con_menu">
+				<h3> CATEGORY</h3>
+				<ul class="con_menu_1">
+					<li>
+						<a href="#">
+							<img src="image/product_menu/index_menu_1.jpg" alt=""/>
+							<p>Apparel</p>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="image/product_menu/index_menu_2.jpg" alt=""/>
+							<p>Accessory</p>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="image/product_menu/index_menu_3.jpg" alt=""/>
+							<p>Bag</p>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="image/product_menu/index_menu_4.jpg" alt=""/>
+							<p>Shoes</p>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="image/product_menu/index_menu_5.jpg" alt=""/>
+							<p>Fabric</p>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="image/product_menu/index_menu_6.jpg" alt=""/>
+							<p>Furniture</p>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="image/product_menu/index_menu_7.jpg" alt=""/>
+							<p>Kitchen</p>
+						</a>
+					</li>
+					<li>
+					<a href="#">
+							<img src="image/product_menu/index_menu_8.jpg" alt=""/>
+							<p>Health</p>
+							<p class="p_line-height">Aroma</p>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<!--상품메뉴끝-->
+			
+			<!--MUJI뉴스-->
+			<div class="muji_news">
+				<img src=" image/muji_news.jpg"/>
+				<div class="muju_news_conbox">
+					<div class="muju_news_conbox_padding">
+						<h3>MUJI News</h3>					
+						<h4>MUJI의 푹신한 소파를 소개합니다.</h4>
+						<p>
+							푹신 소파는 말 그대로 푹신한 소파를 의미합니다. 
+							이반적으로 우리가 생각하는 소파의 형태가 아닌 사용자의 앉는 스타일에 따라
+							 자유자재로 변하여 더욱 편하게 느낄 수 있는 소파입니다.
+						</p>
+						<h4>지금부터 MUJI의 푹신 소파에 대하여 간략히 여러분들께 소개하고자 합니다.</h4>
+						<div class="muju_news_cbn">
+							<a href="#"><p class="border-box">News</p></a>
+						</div>
+					</div>
+				</div>
+		</div>
+			
+			<!-- //MUJI뉴스 -->
+		</div>
+		<!-- //contents-->
+		
+		<!--footer-->
+		<div id="footer">
+			<div class="inner">
+				<ul class="footer_menu">
+					<li><a href="#">Mail Magazine</a></li>
+					<li><a href="#">Online Store</a></li>
+					<li><a href="#">About MUJI</a></li>
+					<li><a href="#">Customer Center</a></li>
+					<li><a href="#">Message form MUJI</a></li>
+				</ul>
+				<!--sns -->
+				<ul class="footer_sns">
+					<li><a href="#"><img src="image/misc_instagram_w.png"/></a></li>
+					<li><a href="#"><img src="image/misc_facebook_w.png"/></a></li>
+					<li><a href="#"><img src="image/misc_twitter_w.png"/></a></li>
+					<li><a href="#"><img src="image/misc_youtube_w.png"/></a></li>
+				</ul>
+				
+				<!--국가 -->
+				<div class="footer_country">
+					<img src="image/korea.png"/>
+					<p>한국</p>
+				</div>
+				<!-- 로고 정보 -->
+				<div class="footer_logo">
+					<h1><img src="image/logo_muji_w.png"/></h1>
+					<ul>
+						<li>© Ryohin Keikaku Co., Ltd.</li>
+						<li>공정거래위원회 사업자정보확인</li>
+					</ul>
+				</div>
+				
+			</div>
+		</div>
+		</div>
+		<!-- //footer-->
+	</div> 
+	<!-- //wrap -->		
+	</body>
+</html>
